@@ -1,0 +1,7 @@
+Beotneira Convencional        Eletrica     (voltagem) monofasico 110v   (Volume) 120L
+          Com Carregador      Gasolina                monofasico 220v            130L
+                              Diesel                  trifasico  220v            150L
+                                                      trifasico  380v            200L
+                                                                                 250L
+                                                                                 400L
+                                                                                 600L

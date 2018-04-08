@@ -1,0 +1,19 @@
+
+os periodo são: Diário  para todos os itens
+                semanal
+                quinzenal
+                mensal
+
+Perguntar se finalizar ou continuar cotação. Dai pode abriri pra ele continuar com os itens geral (porem tem alguns itens que tem coorelação esses podem ser buscados e incluidos no orçamento mesmo em outra categoria ou sub. Mas tem alguns que não será possivel incluir em um orçamento, onde já tenha outros itens. Porque tem não qualquer relação como exemplo; 
+Andaimes e retro-escavadeira  ou Furadeira e concreto  a solução será; algumas categorias como concreto ficar isolada sendo possivel acessar seus produtos relacionados
+ISSO RESOLVE DUAS QUESTOES:
+1 O CLIENTE NAO RECEBE UM ORÇAMENTO PARA CADA CATEGORIA (no caso de poder acessar as outras categorias no mesmo orçamento)
+2 O CLIENTE NÃO DEIXA DE RECEBE ORÇAMENTOS ou RECEBE INCOMPLETOS POR FALTA DE RELAÇÃO ENTRE OS ITENS ( categotias travadas resolve) 
+
+ao finalisar ou iniciar o orçamento colocar endereço de entrega para não ter que falar à cada iten
+
+Os mesmo cessorio relacionado podem aparecer em varios lugares 
+
+
+
+ 
