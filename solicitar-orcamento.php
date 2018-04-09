@@ -40,57 +40,49 @@
                   <h2>O que você precisa?</h2>
                   <h3>Clique no equipamento abaixo</h3>                
                 </div>
-              </div>  
+              </div>             
+              
               <div id="dynamicDiv">
-                <div class="panel-group" id="accordion">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <div class="text-center">
-                        <h4 class="panel-title">
-                          <a data-toggle="collapse" href="#collapse1">Equipamento</a>                         
-                        </h4>
-                      </div>
-                    </div>
-                    <div id="collapse1" class="panel-collapse collapse">
-                      <div class="panel-body"> 
-                        <label for="completar">Selecione o modelo:</label>
-                        
-                        <input type="hidden" id="incremento" name="incremento" value="1">
-                        <input type="hidden" id="cliente_id_logado" name="cliente_id_logado" value="<?php echo $_SESSION['idCliente']; ?>">
-
-                        <div class="col-md-12">                          			
-                        <input type="text" class="completar" name="equipamento1" placeholder="Digite o nome de um equipamento">                  
-                        </div>
-                        <div class="col-md-6">  
-                          <label for="sel2">Quantos dias deseja utilizar?</label>
-                          <select class="form-control" name="periodo1">                        
-                            <option value="">Selecione o dia</option>                    
-                            <option value="1">1 dia</option>
-                            <option value="7">7 dias</option>
-                            <option value="15">15 dias</option>
-                            <option value="30">30 dias</option>
-                          </select>
-                        </div>                              
-                        <div class="col-md-6">                                  
-                          <label for="sel1">Qual quantidade de equipamentos?</label>
-                          <input type="text" name="quantidade1" placeholder="Digite um número"/>
-                        </div>
-                                                                           
-                        <div class="col-md-12">
-                          <textarea name="observacoes1" placeholder="Insira suas observações" rows="5" cols="45"></textarea>  
-                        </div>
-                      </div>
-                    </div>
+                <a href="javascript:;">
+                  <div class="accordion-head" id="accordion-head">
+                    <h4>Equipamento</h4> 
+                  </div>
+                </a>                                  
+                <div id="accordion-body" class="esconder-accordion accordion-body"> 
+                  <label for="completar">Selecione o modelo:</label>                
+                  <input type="hidden" id="incremento" name="incremento" value="1">
+                  <input type="hidden" id="cliente_id_logado" name="cliente_id_logado" value="<?php echo $_SESSION['idCliente']; ?>">
+                  <div class="col-md-12">                          			
+                    <input type="text" class="completar" name="equipamento1" placeholder="Digite o nome de um equipamento">                  
+                  </div>
+                  <div class="col-md-6">  
+                    <label for="sel2">Quantos dias deseja utilizar?</label>
+                    <select class="form-control" name="periodo1">                        
+                      <option value="">Selecione o dia</option>                    
+                      <option value="1">1 dia</option>
+                      <option value="7">7 dias</option>
+                      <option value="15">15 dias</option>
+                      <option value="30">30 dias</option>
+                    </select>
+                  </div>                              
+                  <div class="col-md-6">                                  
+                    <label for="sel1">Qual quantidade de equipamentos?</label>
+                    <input type="text" name="quantidade1" placeholder="Digite um número"/>
+                  </div>                                                                    
+                  <div class="col-md-12">
+                    <textarea name="observacoes1" placeholder="Insira suas observações" rows="5" cols="45"></textarea>  
                   </div>
                 </div>
-              </div>                  
-              <div class="">
+              </div>
+                          
+              <div class="col-md-12">
                 <a href="javascript:;" id="addInput">
                   <button class="btn btn-primary glyphicon glyphicon-plus" aria-hidden="true">
                   Equipamento
                   </button>
                 </a>
               </div>
+
               <input type="button" name="next1" class="next1 acao" value="Próximo"/>
             </fieldset>
 
@@ -184,6 +176,7 @@
     <?php include("incs/footer-menu.php");?>
     <?php include('incs/footer.php');?>
     
-    <script type="text/javascript" src="js/cadastroorcamento.js"></script>    
+    <script type="text/javascript" src="js/cadastroorcamento.js"></script>         
+    <script src="incs/js/main.js"></script>  
   </body>
 </html>

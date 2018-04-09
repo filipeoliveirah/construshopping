@@ -15,5 +15,14 @@ $(document).on('input', '.completar', function(){
         minLength: 1
     });
 });
-
 //AUTOCOMPLETAR
+
+let accID = document.getElementById("accordion-head");
+accID.addEventListener("click", accordion("accordion-body"));
+function accordion(divId) {
+    if (accID.className.indexOf("esconder-accordion") == -1) {
+        accID.className += " esconder-accordion";
+    } else { 
+        accID.className = accID.className.replace("esconder-accordion", "");
+    }
+}
